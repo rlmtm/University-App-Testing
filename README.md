@@ -1,1 +1,1 @@
-# University-App
+# University-App-Max
