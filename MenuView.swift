@@ -11,7 +11,7 @@ struct MenuView: View {
     @State private var selection: String? = nil
 
     var body: some View {
-        NavigationView {
+        //NavigationView {
             VStack {
                 
                 Text("Main Content View")
@@ -82,7 +82,7 @@ struct MenuView: View {
                 
                
             }
-        }
+        //}
     }
 }
 
