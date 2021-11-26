@@ -70,7 +70,7 @@ struct MenuView: View {
                     .font(.title)
                 }
                 
-                NavigationLink(destination: SearchBar()) {
+                NavigationLink(destination: SearchBar(text: @state text: String)) {
                     Text("Sixth View")
                     .frame(minWidth: 0, maxWidth: 300)
                     .padding()
